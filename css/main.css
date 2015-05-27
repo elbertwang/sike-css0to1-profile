@@ -92,13 +92,12 @@ h1, h2, h3, h4, h5, h6 {
 .info-section header h2:after {
     text-align: center;
     content:"";
-    display:table;
+    display:block;
     clear:both;
     border-bottom: 3px solid black;
-}
-
-.info-section ul li{
-    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 .info-section__description {
@@ -134,11 +133,58 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(../img/skill-product.png);
 }
 
-.whatido__skill--product:after{
+.whatido__skill-list:after{
     clear: both;
-    display: table;
+    display: block;
     content: "";
 }
 
+.education-experience{
+    text-align: center;
+}
 
+.education-experience__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
 
+.education-experience__list img{
+    width: 180px;
+    float: left;
+    margin-right: 50px;
+}
+.education-experience__list li {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 0px;
+    display: inline-block;
+
+}
+.education-experience__list li article{
+    overflow: hidden;
+}
+.education-experience__description{
+    overflow: hidden;
+}
+.photos {
+    box-sizing:border-box;
+}
+.photos ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.photos ul li{
+    display: inline-block;
+    padding: 10px;
+    width: 185px;
+    overflow: hidden;
+}
+
+.photos ul li img{
+    width: 100%;
+}
