@@ -96,8 +96,8 @@ h1, h2, h3, h4, h5, h6 {
     clear:both;
     border-bottom: 3px solid black;
     margin-top: 10px;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .info-section__description {
@@ -170,21 +170,88 @@ h1, h2, h3, h4, h5, h6 {
 }
 .photos {
     box-sizing:border-box;
+    overflow: hidden;
 }
-.photos ul{
+.photos__list{
     list-style: none;
     padding: 0;
     margin: 0;
     float: left;
 }
 
-.photos ul li{
+.photos__list li{
     display: inline-block;
     padding: 10px;
     width: 185px;
     overflow: hidden;
 }
 
-.photos ul li img{
+.photos__list li img{
     width: 100%;
+}
+
+.get-in-touch{
+    box-sizing:border-box;
+    overflow: hidden;
+    padding: 1px;
+}
+.get-in-touch header{
+    margin-bottom: 30px;
+}
+.get-in-touch__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float:left;
+    text-align: center;
+}
+
+.get-in-touch__list li {
+    display: inline-block;
+    width: 120px;
+    margin-left: 90px;
+}
+
+.get-in-touch__list li img{
+    width: 100%;
+}
+.contact {
+    
+}
+.contact input,
+.contact textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    display: block;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.contact label {
+    position: absolute;
+    top: 0;
+    left: -20%;
+    width: 100%;
+    padding-bottom: 20px;
+    display: block;
+
+}
+.contact form{
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contact button {
+    border: none;
+    border-radius: 9999px;
+    width: 100%;
+    padding: 8px;
+    background: #ffd524;
+    
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    color: #fff;
+    box-shadow: 0 3px 0 #daae1d;
+    
 }
